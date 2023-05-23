@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <h3>Add new character</h3>
+    <form (ngSubmit)="saveChars()">
+      <div class="form-group">
+        <label for="charName">Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="chars.name" name="name" required><br>
+      </div>
+      <div class="form-group">
+        <label for="charStatus">Status</label>
+        <input type="text" class="form-control" id="status" [(ngModel)]="chars.status" name="status" required><br>
+      </div>
+      <div class="form-group">
+        <label for="charSpecies">Species</label>
+        <input type="text" class="form-control" id="species" [(ngModel)]="chars.species" name="species" required><br>
+      </div>
+      <div class="form-group">
+        <label for="charGender">Gender</label>
+        <input type="text" class="form-control" id="gender" [(ngModel)]="chars.gender" name="gender" required><br>
+      </div>
+      <div class="form-group">
+        <label for="charOrigin">Origin</label>
+        <input type="text" class="form-control" id="origin" [(ngModel)]="chars.origin" name="origin" required><br>
+      </div>
+      <button class="btn btn-success" type="submit">Add character</button>
+      <button class="btn btn-warning" (click)="charactersView()">Characters</button>
+      <span *ngIf="formError" class="error-message">{{ formError }}</span>
+      <span *ngIf="sendSuccessfully" class="sendSuccessfully-message">{{ sendSuccessfully }}</span>
+    </form>
+  </div>
+</div>

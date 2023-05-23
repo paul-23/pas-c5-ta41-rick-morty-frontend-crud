@@ -1,0 +1,10 @@
+<div class="cards" *ngIf="characters != null; else espera">
+  <div class="card" style="width: 18rem" *ngFor="let character of characters">
+    <img src="{{ character.image }}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ character.name }}</h5>
+      <a [routerLink]="['/character',character.id]" class="btn btn-warning">See more</a>
+    </div>
+  </div>
+</div>
+<ng-template #espera>Esperando datos...</ng-template>

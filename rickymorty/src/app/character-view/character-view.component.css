@@ -1,0 +1,11 @@
+.btn {
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons > .btn-primary {
+  margin-right: 15px;
+}

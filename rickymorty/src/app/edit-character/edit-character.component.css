@@ -1,0 +1,20 @@
+.error-message {
+  margin-left: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.updateSuccessfully-message {
+  margin-left: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+form {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+.btn-success {
+  margin-right: 15px;
+}
