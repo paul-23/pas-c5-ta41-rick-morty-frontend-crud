@@ -44,6 +44,33 @@
       "gender": "Male",
       "origin": "Earth (Replacement Dimension)",
       "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    },
+    {
+      "name": "Abadango Cluster Princess",
+      "status": "Alive",
+      "species": "Alien",
+      "gender": "Female",
+      "origin": "Abadango",
+      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+      "id": 6
+    },
+    {
+      "name": "Abradolf Lincler",
+      "status": "unknown",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+      "id": 7
+    },
+    {
+      "name": "Adjudicator Rick",
+      "status": "Dead",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+      "id": 8
     }
   ]
 }
